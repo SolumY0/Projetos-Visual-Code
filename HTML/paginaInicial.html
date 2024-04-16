@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+</head>
+<style>
+    body{
+        background-color: #8cb2ff;
+        background-image: url(/HTML/img/nuvem.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center; 
+        font-size: 100px;
+        color: #1a1b3a;
+    }
+    .imgDark{
+        border:5px solid #1a1b3a;
+        border-radius: 10px;
+        position: relative;
+        left: 40px;
+        transition: transform 1s;
+        transform: scale(1);
+    }
+    .imgDark:hover {
+        transform: scale(0.8);
+    }
+    .imgRed{
+        border:5px solid #1a1b3a;
+        border-radius: 10px;
+        position: relative;
+        left: 120px;
+        transition: transform 1s;
+        transform: scale(1);
+    }
+    .imgRed:hover {
+        transform: scale(0.8);
+    }
+    .imgGris{
+        border:5px solid #1a1b3a;
+        border-radius: 10px;
+        position: relative;
+        left: 200px;
+        transition: transform 1s;
+        transform: scale(1);
+    }
+    .imgGris:hover {
+        transform: scale(0.8);
+    }
+    div{
+        position: relative;
+        left: 640px;
+        bottom: 10px;
+    }
+    #divCredito{
+        position: relative;
+        left: 640px;
+        bottom: 70px;
+    }
+</style>
+<body>
+    <h1>Bem-vindo ao site!</h1>
+    <div>
+        <a href="http://127.0.0.1:5500/HTML/paginaProdu%C3%A7ao.html">Site da desenvolvidora de Gris</a>
+    </div>
+    <div id="divCredito">
+        <a href="http://127.0.0.1:5500/HTML/paginaCreditos.html">Créditos e contatos</a>
+    </div>
+    <a href="http://127.0.0.1:5500/HTML/indisponivel1.html"><img class="imgDark" src="/HTML/img/Dark.jpg" width="400" height="500" alt="Erro" title="Indiponível"></a>
+    <a href="http://127.0.0.1:5500/HTML/indisponivel1.html"><img class="imgRed" src="/HTML/img/Red Dead.jpg" width="400" height="500" alt="Erro" title="Indiponível"></a>
+    <a href="http://127.0.0.1:5500/HTML/siteGris.html"><img class="imgGris" src="/HTML/img/GrisCapa.jpg" width="400" height="500" alt="Erro" title="Diponível"></a>
+</body>
+</html>
