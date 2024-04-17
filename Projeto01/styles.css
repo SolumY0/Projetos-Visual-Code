@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: rgb(193, 214, 232);
+    text-align: inherit;
+}
+
+#meuQuadrado{
+    background-color: rgb(133, 133, 204);
+    border-radius: 20PX;
+    width: 1390px;
+    height: 1430px;
+    margin-left: 40px;
+    margin-top: 400px;
+}
+
+#cabecalho{
+    height: 150px;
+    background-color: rgb(48, 52, 137);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(20, 14, 61);
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(20, 14, 61);
+    margin-top: 50px;
+}
+
+#bola{
+    float: left;
+    margin-right: 120px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#bandeira{
+    float: left;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+img{
+    clear: both;
+    border-radius: 20px;
+}
+
+#livros{
+    margin-top: 30px;
+    float: left;
+}
+
+.posicaoSubtitulo{
+    margin-right: 380px;
+    margin-top: 100px;
+}
+
+p{
+    clear: both;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#jinmu{
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    align-content: center;
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+#jinmu:hover {
+    transform: scale(0.8);
+}
+
+#meuQuadrado2{
+    background-color: rgb(133, 133, 204);
+    border-radius: 20PX;
+    width: 1390px;
+    height: 1300px;
+    margin-left: 40px;
+}
+
+#desastre{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+#desastre:hover {
+    transform: scale(0.8);
+}
+
+#meuQuadrado3{
+    background-color: rgb(133, 133, 204);
+    border-radius: 20PX;
+    width: 1390px;
+    height: 1390px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#anime{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 18%;
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+#anime:hover {
+    transform: scale(0.8);
+}
+
+#manga{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 46%;
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+#manga:hover {
+    transform: scale(0.8);
+}
+
+#rodape{
+    height: 250px;
+    background-color: rgb(48, 52, 137);
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: rgb(48, 52, 137);
+    background-color: rgb(169, 198, 227);
+}
+
+#gif{
+    float: left;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+#gif2{ 
+    margin-left: 80%;
+}
+
+#arrumarCultura{
+    margin-right: 360px;
+}
